@@ -1,9 +1,10 @@
 import React from 'react'
+import ProjectItemComponent from './ProjectItemComponent';
 
 class Dashboard extends React.Component {
     render() {
         return (
-            <h1>Dashboard Component</h1>
+            <ProjectItemComponent/>
         )
     }
 }
