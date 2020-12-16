@@ -32,8 +32,7 @@ class AddProject extends Component {
             end_date:this.state.end_date
         }
 
-       // TODO :  Call a method to send project on Springboot
-       console.log(newProject);
+      this.props.createProject(newProject,this.props.history);
 
     }
     render() {
