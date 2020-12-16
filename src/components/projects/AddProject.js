@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { createProject } from '../../actions/ProjectAction';
 class AddProject extends Component {
 
     constructor(props){
@@ -99,4 +101,8 @@ class AddProject extends Component {
     }
 }
 
-export default AddProject;
+AddProject.propTypes = {
+    createProject:PropTypes.func.isRequired
+}
+
+export default connect(null,{createProject})(AddProject);

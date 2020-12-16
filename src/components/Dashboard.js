@@ -11,6 +11,7 @@ class Dashboard extends React.Component {
         }
     }
 
+   
     render() {
         return (
             <div className="projects">
@@ -23,7 +24,7 @@ class Dashboard extends React.Component {
                         <br />
                         <hr />
     
-                       <ProjectItemComponent/>
+                       <ProjectItemComponent />
                       
     
                     </div>
