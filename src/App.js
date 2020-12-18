@@ -8,7 +8,7 @@ import AddProject from './components/projects/AddProject';
 import { Provider } from 'react-redux';
 import store from './store';
 import UpdateProject from './components/projects/UpdateProject';
-
+import React, { Component }  from 'react';
 
 function App() {
   return (
